@@ -1,0 +1,31 @@
+# Root-level ignores
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Node/Next (catch any stray at root)
+node_modules/
+.next/
+
+# Python/Ruby/etc placeholders just in case
+*.pyc
+.bundle/
+
+# Archives
+*.zip
+*.tar
+*.gz
